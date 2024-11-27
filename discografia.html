@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discografia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(Designer02.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #f1f1f1;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(13, 30, 77, 0.9);
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #12f2fa;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #1263fa;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 80px auto 0;
+        }
+
+        h1 {
+            color: rgb(32, 44, 218);
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+
+        .album {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .album img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .album-info {
+            color: #f1f1f1;
+        }
+
+        .album-info h2 {
+            font-size: 1.8em;
+            margin: 0;
+            color: #00bcd4;
+        }
+
+        .album-info p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="contrato.html">Contratos</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Discografia - Star Noir</h1>
+
+        <div class="album">
+            <img src="Disco1.jpeg" alt="Capa do álbum Noir">
+            <div class="album-info">
+                <h2>Noir</h2>
+                <p><strong>Ano:</strong> 2018</p>
+                <p><strong>Descrição:</strong> O álbum de estreia da banda Star Noir. Combinando elementos de trap e música eletrônica, *Noir* se tornou um marco inicial da sonoridade única da banda.</p>
+            </div>
+        </div>
+
+        <div class="album">
+            <img src="Disco03.jpeg" alt="Capa do álbum Fuga da Realidade">
+            <div class="album-info">
+                <h2>Fuga da Realidade</h2>
+                <p><strong>Ano:</strong> 2021</p>
+                <p><strong>Descrição:</strong> Este álbum aprofunda as temáticas introspectivas da banda, explorando os desafios da vida moderna através de letras poéticas e arranjos envolventes.</p>
+            </div>
+        </div>
+
+        <div class="album">
+            <img src="Disco02.jpeg" alt="Capa do álbum Galáxia Introspectiva">
+            <div class="album-info">
+                <h2>Galáxia Introspectiva</h2>
+                <p><strong>Ano:</strong> 2023</p>
+                <p><strong>Descrição:</strong> Uma jornada sonora que mistura sons espaciais com a pegada energética do trap, levando os ouvintes a uma experiência imersiva e transformadora.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
